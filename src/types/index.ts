@@ -1,2 +1,2 @@
 // Exportar todos os tipos do projeto aqui
-export type { };
+export type { TeamMember } from "./team";
