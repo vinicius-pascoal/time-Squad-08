@@ -9,12 +9,12 @@ interface TeamMemberCardProps {
 
 export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ member }) => {
   return (
-    <div className="group relative overflow-hidden rounded-3xl bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-slate-200/50 dark:border-slate-800/50 hover:border-blue-500/50 dark:hover:border-blue-400/50 hover:-translate-y-2">
+    <div className="group relative overflow-hidden rounded-3xl bg-slate-900/80 backdrop-blur-xl shadow-xl hover:shadow-2xl transition-all duration-500 border border-slate-800/50 hover:border-blue-400/50 hover:-translate-y-2">
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
       {/* Foto */}
-      <div className="relative h-72 w-full overflow-hidden bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+      <div className="relative h-72 w-full overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900">
         <Image
           src={member.photo}
           alt={member.name}
@@ -26,26 +26,26 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ member }) => {
       </div>
 
       {/* Conteúdo */}
-      <div className="relative p-6 bg-gradient-to-b from-transparent to-white/50 dark:to-slate-900/50">
+      <div className="relative p-6 bg-gradient-to-b from-transparent to-slate-900/50">
         {/* Nome */}
-        <h3 className="text-2xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
+        <h3 className="text-2xl font-bold bg-gradient-to-r from-slate-100 to-slate-300 bg-clip-text text-transparent mb-2 group-hover:scale-105 transition-transform duration-300">
           {member.name}
         </h3>
 
         {/* Cargo */}
         <div className="inline-block mb-2">
-          <p className="text-sm font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">
+          <p className="text-sm font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
             {member.role}
           </p>
         </div>
 
         {/* Função */}
-        <p className="text-sm text-slate-600 dark:text-slate-400 mb-5 leading-relaxed">
+        <p className="text-sm text-slate-400 mb-5 leading-relaxed">
           {member.position}
         </p>
 
         {/* Redes Sociais */}
-        <div className="flex gap-3 pt-5 border-t border-slate-200/70 dark:border-slate-700/70">
+        <div className="flex gap-3 pt-5 border-t border-slate-700/70">
           {member.social.instagram && (
             <a
               href={member.social.instagram}

@@ -4,9 +4,9 @@ import { teamMembers } from "@/lib/data/team";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-950 dark:via-blue-950 dark:to-indigo-950 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-indigo-950 relative overflow-hidden">
       {/* Background Effects */}
-      <div className="absolute inset-0 bg-grid-slate-100 dark:bg-grid-slate-900 opacity-30" />
+      <div className="absolute inset-0 bg-grid-slate-900 opacity-30" />
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-400/20 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-indigo-400/20 rounded-full blur-3xl animate-pulse delay-700" />
 
