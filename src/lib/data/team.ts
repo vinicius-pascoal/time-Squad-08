@@ -116,8 +116,7 @@ export const teamMembers: TeamMember[] = [
     position: " Desenvolvedor BackEnd",
     photo: "/team/iago.jpg",
     social: {
-      instagram: "#",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/iago-messias-andrade/",
       whatsapp: "557988158208",
     },
   },
