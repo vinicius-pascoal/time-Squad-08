@@ -43,8 +43,6 @@ export const teamMembers: TeamMember[] = [
     position: "BackEnd e Documentador",
     photo: "/team/pedro.jpg",
     social: {
-      instagram: "#",
-      linkedin: "#",
       whatsapp: "557988279876",
     },
   },
@@ -55,8 +53,6 @@ export const teamMembers: TeamMember[] = [
     position: "Desenvolvedor BackEnd ",
     photo: "/team/andrey.jpg",
     social: {
-      instagram: "#",
-      linkedin: "#",
       whatsapp: "557999571396",
     },
   },
@@ -67,8 +63,6 @@ export const teamMembers: TeamMember[] = [
     position: "Desenvolvedor FrontEnd ",
     photo: "/team/lucas.jpg",
     social: {
-      instagram: "#",
-      linkedin: "#",
       whatsapp: "5557988059278",
     },
   },
@@ -79,8 +73,6 @@ export const teamMembers: TeamMember[] = [
     position: "FrontEnd e Documentadora ",
     photo: "/team/poliana.jpg",
     social: {
-      instagram: "#",
-      linkedin: "#",
       whatsapp: "557991375970",
     },
   },
@@ -91,8 +83,6 @@ export const teamMembers: TeamMember[] = [
     position: " Desenvolvedor BackEnd",
     photo: "/team/guylherme.jpg",
     social: {
-      instagram: "#",
-      linkedin: "#",
       whatsapp: "557592019824",
     },
   },
