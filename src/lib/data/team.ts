@@ -4,8 +4,8 @@ export const teamMembers: TeamMember[] = [
   {
     id: "1",
     name: "Vinicus Pascoal",
-    role: "Lider",
-    position: "Desenvolvedor Full Stack",
+    role: "Lider e Desenvolvedor",
+    position: "Lider e Desenvolvedor Full Stack",
     photo: "/team/viniciusP.jpg",
     social: {
       instagram: "https://www.instagram.com/vinicius_pascoal_q?igsh=MTJhZjR3MWxuaGtkdg==",
