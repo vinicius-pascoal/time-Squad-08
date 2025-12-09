@@ -53,6 +53,8 @@ export const teamMembers: TeamMember[] = [
     position: "Desenvolvedor BackEnd ",
     photo: "/team/andrey.jpg",
     social: {
+      instagram: "https://www.instagram.com/andreyoliveira.santos?igsh=OXdram5xbjcwdngx",
+      linkedin: "https://www.linkedin.com/in/andrey-oliveira-santos-82304328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       whatsapp: "557999571396",
     },
   },
