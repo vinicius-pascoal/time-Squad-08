@@ -32,8 +32,7 @@ export const teamMembers: TeamMember[] = [
     position: "BackEnd e Documentadora",
     photo: "/team/mariana.jpg",
     social: {
-      instagram: "#",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/mariana-p-britto-449454325/",
       whatsapp: "557991030088",
     },
   },
@@ -111,7 +110,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "10",
-    name: "Iago Soares ",
+    name: "Iago Messias ",
     role: "BackEnd ",
     position: " Desenvolvedor BackEnd",
     photo: "/team/iago.jpg",
