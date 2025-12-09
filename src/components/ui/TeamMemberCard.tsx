@@ -33,16 +33,11 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ member }) => {
         </h3>
 
         {/* Cargo */}
-        <div className="inline-block mb-2">
+        <div className="inline-block mb-5">
           <p className="text-sm font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
             {member.role}
           </p>
         </div>
-
-        {/* Função */}
-        <p className="text-sm text-slate-400 mb-5 leading-relaxed">
-          {member.position}
-        </p>
 
         {/* Redes Sociais */}
         <div className="flex gap-3 pt-5 border-t border-slate-700/70">

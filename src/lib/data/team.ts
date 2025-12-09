@@ -4,8 +4,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "1",
     name: "Vinicus Pascoal",
-    role: "Lider e Desenvolvedor",
-    position: "Lider e Desenvolvedor Full Stack",
+    role: "Lider e Desenvolvedor FullStack",
     photo: "/team/viniciusP.jpg",
     social: {
       instagram: "https://www.instagram.com/vinicius_pascoal_q?igsh=MTJhZjR3MWxuaGtkdg==",
@@ -17,7 +16,6 @@ export const teamMembers: TeamMember[] = [
     id: "2",
     name: "Esthefany Muniz",
     role: "Designer UI/UX",
-    position: "Designer Gráfico",
     photo: "/team/esthefany.jpg",
     social: {
       instagram: "https://www.instagram.com/iz_esthefany?igsh=MW80eGNndTA3NHV1Zw==",
@@ -28,8 +26,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "3",
     name: "Mariana Penalva",
-    role: "BackEnd e Documentação",
-    position: "BackEnd e Documentadora",
+    role: "Desenvolvedora BackEnd e Documentação",
     photo: "/team/mariana.jpg",
     social: {
       linkedin: "https://www.linkedin.com/in/mariana-p-britto-449454325/",
@@ -38,9 +35,8 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "4",
-    name: "Pedro Lucas Neves",
-    role: "BackEnd e Documentação",
-    position: "BackEnd e Documentador",
+    name: "Pedro Lucas",
+    role: " Desenvolvedor BackEnd e Documentação",
     photo: "/team/pedro.jpg",
     social: {
       whatsapp: "557988279876",
@@ -49,8 +45,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "5",
     name: "Andrey Oliveira",
-    role: "BackEnd ",
-    position: "Desenvolvedor BackEnd ",
+    role: "Desenvolvedor BackEnd ",
     photo: "/team/andrey.jpg",
     social: {
       instagram: "https://www.instagram.com/andreyoliveira.santos?igsh=OXdram5xbjcwdngx",
@@ -61,8 +56,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "6",
     name: "Lucas Machado",
-    role: "FrontEnd ",
-    position: "Desenvolvedor FrontEnd ",
+    role: "Desenvolvedor FrontEnd",
     photo: "/team/lucas.jpg",
     social: {
       whatsapp: "5557988059278",
@@ -71,8 +65,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "7",
     name: "Poliana Brasil",
-    role: "FrontEnd e Documentação ",
-    position: "FrontEnd e Documentadora ",
+    role: "Desenvolvedora FrontEnd e Documentação ",
     photo: "/team/poliana.jpg",
     social: {
       whatsapp: "557991375970",
@@ -81,8 +74,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "8",
     name: "Guylherme Lira",
-    role: "BackEnd ",
-    position: " Desenvolvedor BackEnd",
+    role: "Desenvolvedor BackEnd",
     photo: "/team/guylherme.jpg",
     social: {
       whatsapp: "557592019824",
@@ -91,8 +83,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "9",
     name: "Kauã Rodrigo ",
-    role: "FrontEnd ",
-    position: " Desenvolvedor FrontEnd",
+    role: "Desenvolvedor FrontEnd",
     photo: "/team/kaua.jpg",
     social: {
       instagram: "https://www.instagram.com/kauarodrigol?igsh=bjdnY2YyaHhqNTd0&utm_source=qr",
@@ -103,8 +94,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "10",
     name: "Iago Messias ",
-    role: "BackEnd ",
-    position: " Desenvolvedor BackEnd",
+    role: "Desenvolvedor BackEnd ",
     photo: "/team/iago.jpg",
     social: {
       linkedin: "https://www.linkedin.com/in/iago-messias-andrade/",
