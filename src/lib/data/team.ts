@@ -77,6 +77,8 @@ export const teamMembers: TeamMember[] = [
     role: "Desenvolvedor BackEnd",
     photo: "/team/guylherme.jpg",
     social: {
+      instagram: "https://www.instagram.com/guylher_lira?igsh=M3k5Zmd4bWJhZWR4",
+      linkedin: "https://www.linkedin.com/in/guylherme-lira-bb6460254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       whatsapp: "557592019824",
     },
   },
